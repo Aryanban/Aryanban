@@ -4,7 +4,7 @@
   <a href="https://www.webforge.me/"><img src="https://img.shields.io/badge/Live%20Portfolio-webforge.me-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" /></a>
   <a href="https://plotbook.webforge.me/"><img src="https://img.shields.io/badge/Featured%20SaaS-PlotBook-059669?style=for-the-badge&logo=googlemaps&logoColor=white" alt="PlotBook App" /></a>
   <a href="https://dholeramap.com/"><img src="https://img.shields.io/badge/Featured%20GIS-dholeramap.com-0284C7?style=for-the-badge&logo=mapbox&logoColor=white" alt="DholeraMap App" /></a>
-  <a href="https://www.linkedin.com/in/aryanbansal"><img src="https://img.shields.io/badge/LinkedIn-aryanbansal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/aryan-bansal-b29b69370/"><img src="https://img.shields.io/badge/LinkedIn-Aryan_Bansal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.iiitd.ac.in/"><img src="https://img.shields.io/badge/IIIT%20Delhi-CS%20%26%20Design-1E293B?style=for-the-badge&logo=academia&logoColor=white" alt="IIIT Delhi" /></a>
   <a href="mailto:aryan24120@iiitd.ac.in"><img src="https://img.shields.io/badge/Email-aryan24120@iiitd.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -168,7 +168,7 @@ const aryan = {
 
 - 🌐 **Primary Portfolio**: [www.webforge.me](https://www.webforge.me/)
 - 🗺️ **PropTech Platforms**: [plotbook.webforge.me](https://plotbook.webforge.me/) • [dholeramap.com](https://dholeramap.com/)
-- 💼 **LinkedIn**: [linkedin.com/in/aryanbansal](https://www.linkedin.com/in/aryanbansal)
+- 💼 **LinkedIn**: [linkedin.com/in/aryan-bansal-b29b69370](https://www.linkedin.com/in/aryan-bansal-b29b69370/)
 - ✉️ **Email**: [aryan24120@iiitd.ac.in](mailto:aryan24120@iiitd.ac.in) / [aryanbanc@gmail.com](mailto:aryanbanc@gmail.com)
 
 <p align="center">
