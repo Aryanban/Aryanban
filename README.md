@@ -21,6 +21,10 @@ const aryan = {
 };
 ```
 
+> 🎯 **Actively Seeking Software Engineering (SWE), Full-Stack & Systems Roles & Internships.**  
+> 📍 **Location:** New Delhi, India / Remote • ⚡ **Core Strengths:** Next.js, TypeScript, C / Linux Kernel, Spatial GIS, Model Context Protocol (MCP)  
+> 📬 **Quick Connect:** [LinkedIn Profile](https://www.linkedin.com/in/aryan-bansal-b29b69370/) • [aryan24120@iiitd.ac.in](mailto:aryan24120@iiitd.ac.in) • [Portfolio (webforge.me)](https://www.webforge.me/)
+
 ---
 
 ## 🚀 Featured Flagship Platforms & SaaS
@@ -34,11 +38,11 @@ const aryan = {
         <li><b>Live Platform:</b> <a href="https://plotbook.webforge.me/">plotbook.webforge.me</a></li>
         <li><b>Architecture & Case Study:</b> <a href="https://github.com/Aryanban/plotbook-showcase">Aryanban/plotbook-showcase</a></li>
         <li><b>705 SSG Routes</b> pre-rendered via Next.js 16 Turbopack</li>
-        <li>Interactive pan/zoom canvas using Leaflet with sub-pocket indexing</li>
+        <li>60fps imperative camera writing matrix transforms directly to CSS (0 React re-renders)</li>
         <li>Automated circle rate calculations &amp; client PDF brochure generator</li>
       </ul>
       <p>
-        <code>Next.js 16</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Leaflet</code> <code>Supabase</code> <code>Razorpay</code>
+        <code>Next.js 16</code> <code>TypeScript</code> <code>Turbopack</code> <code>Leaflet</code> <code>Supabase</code> <code>Razorpay</code>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -49,6 +53,7 @@ const aryan = {
         <li><b>Architecture & Case Study:</b> <a href="https://github.com/Aryanban/dholeramap-showcase">Aryanban/dholeramap-showcase</a></li>
         <li>Sub-millisecond off-thread point-in-polygon raycasting via dedicated Web Worker</li>
         <li>Custom <code>DPB1</code> delta-int32 binary serialization cutting payload size by &gt;80%</li>
+        <li>Deep-zoom WebP tile pyramids in Leaflet with custom coordinate reference system</li>
       </ul>
       <p>
         <code>Next.js 15</code> <code>TypeScript</code> <code>Web Workers</code> <code>Leaflet</code> <code>Binary DPB1</code> <code>DGDCR 2024</code>
@@ -56,6 +61,19 @@ const aryan = {
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h3>🐧 <a href="https://github.com/Aryanban/e1000-driver-showcase">Intel E1000 Driver — Kernel-Space Packet Drop</a></h3>
+      <p>Systems architecture &amp; Linux Kernel 6.12 device driver implementing <b>in-kernel probabilistic packet dropping</b> and transport layer recovery evaluation.</p>
+      <ul>
+        <li><b>Architecture & Design:</b> <a href="https://github.com/Aryanban/e1000-driver-showcase">Aryanban/e1000-driver-showcase</a></li>
+        <li>Intercepts and drops frames in <code>e1000_xmit_frame()</code> before transmission</li>
+        <li>Raw 5-byte UDP datagram control plane (<code>block</code> binary) to dynamic IP filters</li>
+        <li>Benchmarked 100,000 packets across 0%–15% loss analyzing TCP RTO exponential backoff</li>
+      </ul>
+      <p>
+        <code>C</code> <code>Linux Kernel 6.12</code> <code>Intel e1000</code> <code>SKB Buffers</code> <code>TCP/IP</code> <code>QEMU</code>
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3>⚡ <a href="https://github.com/Aryanban/leadforge">LeadForge — Autonomous Cold Outreach Platform</a></h3>
       <p>Open-source, zero-cost lead generation, Apollo-grade email waterfall enrichment, and cold outreach sequencer with native <b>Model Context Protocol (MCP)</b> support.</p>
@@ -67,6 +85,21 @@ const aryan = {
       </ul>
       <p>
         <code>FastAPI</code> <code>Next.js 15</code> <code>Python 3.11</code> <code>Playwright</code> <code>Docker</code> <code>MCP Native</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/Aryanban/seoforge">SEOForge — Autonomous SEO/AEO Crawler &amp; MCP Server</a></h3>
+      <p>Screaming Frog-grade local SEO crawler, site audit engine, and Answer Engine Optimization (AEO) scoring for Google AI Overviews and Perplexity search.</p>
+      <ul>
+        <li><b>GitHub:</b> <a href="https://github.com/Aryanban/seoforge">Aryanban/seoforge</a></li>
+        <li>Native <b>Model Context Protocol (MCP)</b> agent server for autonomous crawling</li>
+        <li>Automated IndexNow search engine protocol submission</li>
+        <li>Interactive local web dashboard with Hono, React 19, and Tailwind v4</li>
+      </ul>
+      <p>
+        <code>TypeScript</code> <code>Hono</code> <code>MCP SDK</code> <code>React 19</code> <code>Cheerio</code> <code>IndexNow</code>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -96,6 +129,7 @@ const aryan = {
 | **[e1000-driver-showcase](https://github.com/Aryanban/e1000-driver-showcase)** | `C` `Linux Kernel 6.12` `Intel e1000` `Networking` | Systems architecture & empirical case study on in-kernel probabilistic packet dropping, SKB socket buffers & TCP recovery. |
 | **[leadforge](https://github.com/Aryanban/leadforge)** | `Python` `FastAPI` `Next.js 15` `Playwright` | Autonomous lead generation, Apollo-grade enrichment engine, and cold outreach sequencer with native MCP server. |
 | **[postforge](https://github.com/Aryanban/postforge)** | `TypeScript` `React 19` `Tailwind` | Algorithm-native social engine evaluating drafts against the Twitter Heavy Ranker neural net before publishing. |
+| **[seoforge](https://github.com/Aryanban/seoforge)** | `TypeScript` `Hono` `MCP SDK` `React 19` | Screaming Frog-grade SEO/AEO crawler, site audit engine & Model Context Protocol (MCP) agent server. |
 | **[webforge-portfolio-showcase](https://github.com/Aryanban/webforge-portfolio-showcase)** | `React 19` `Vite` `Tailwind CSS v4` `Framer Motion` | Frontend architecture for [webforge.me](https://www.webforge.me/) featuring interactive terminal and dark glassmorphic UI. |
 | **[university-erp](https://github.com/Aryanban/university-erp)** | `Java` `Maven` `MySQL` `Swing` | Enterprise-grade desktop ERP system with RBAC security and dual-database transactional logic. |
 | **[monoply_dbms](https://github.com/Aryanban/monoply_dbms)** | `Python` `SQL` `Relational DB` | Real-time database engine handling multiplayer game state, bank transactions, and leaderboards. |
