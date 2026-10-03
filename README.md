@@ -31,7 +31,8 @@ const aryan = {
       <h3>🗺️ <a href="https://plotbook.webforge.me/">PlotBook — Real Estate Intelligence SaaS</a></h3>
       <p>High-performance geospatial SaaS digitizing <b>362+ official DDA blueprints</b> across all 36 Rohini sectors with plot verification, 2025 Delhi circle rates, and broker CRM.</p>
       <ul>
-        <li><b>Live Application:</b> <a href="https://plotbook.webforge.me/">plotbook.webforge.me</a></li>
+        <li><b>Live Platform:</b> <a href="https://plotbook.webforge.me/">plotbook.webforge.me</a></li>
+        <li><b>Architecture & Case Study:</b> <a href="https://github.com/Aryanban/plotbook-showcase">Aryanban/plotbook-showcase</a></li>
         <li><b>705 SSG Routes</b> pre-rendered via Next.js 16 Turbopack</li>
         <li>Interactive pan/zoom canvas using Leaflet with sub-pocket indexing</li>
         <li>Automated circle rate calculations &amp; client PDF brochure generator</li>
@@ -90,14 +91,15 @@ const aryan = {
 
 | Repository | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **[dda_realestate](https://github.com/Aryanban/dda_realestate)** | `Next.js 16` `TypeScript` `Leaflet` `Supabase` | Core codebase behind PlotBook — digitized DDA layout plans, circle rate calculators, and broker CRM at [plotbook.webforge.me](https://plotbook.webforge.me/). |
 | **[dholeramap-showcase](https://github.com/Aryanban/dholeramap-showcase)** | `Next.js 15` `TypeScript` `CesiumJS` `Leaflet` | Architecture case study & GIS showcase for [dholeramap.com](https://dholeramap.com/) — 19,146 cadastral survey numbers, 3D flythrough & Sentinel-2 stream. |
+| **[plotbook-showcase](https://github.com/Aryanban/plotbook-showcase)** | `Next.js 16` `TypeScript` `Turbopack` `Leaflet` | Architecture case study for [plotbook.webforge.me](https://plotbook.webforge.me/) — 362 digitized DDA layout plans, 60fps camera & broker CRM. |
+| **[e1000-driver-showcase](https://github.com/Aryanban/e1000-driver-showcase)** | `C` `Linux Kernel 6.12` `Intel e1000` `Networking` | Systems architecture & empirical case study on in-kernel probabilistic packet dropping, SKB socket buffers & TCP recovery. |
 | **[leadforge](https://github.com/Aryanban/leadforge)** | `Python` `FastAPI` `Next.js 15` `Playwright` | Autonomous lead generation, Apollo-grade enrichment engine, and cold outreach sequencer with native MCP server. |
 | **[postforge](https://github.com/Aryanban/postforge)** | `TypeScript` `React 19` `Tailwind` | Algorithm-native social engine evaluating drafts against the Twitter Heavy Ranker neural net before publishing. |
+| **[webforge-portfolio-showcase](https://github.com/Aryanban/webforge-portfolio-showcase)** | `React 19` `Vite` `Tailwind CSS v4` `Framer Motion` | Frontend architecture for [webforge.me](https://www.webforge.me/) featuring interactive terminal and dark glassmorphic UI. |
 | **[university-erp](https://github.com/Aryanban/university-erp)** | `Java` `Maven` `MySQL` `Swing` | Enterprise-grade desktop ERP system with RBAC security and dual-database transactional logic. |
 | **[monoply_dbms](https://github.com/Aryanban/monoply_dbms)** | `Python` `SQL` `Relational DB` | Real-time database engine handling multiplayer game state, bank transactions, and leaderboards. |
 | **[pdf-ai-ml-bot](https://github.com/Aryanban/pdf-ai-ml-bot)** | `Python` `NLP` `Embeddings` | Intelligent document parsing and conversational question-answering pipeline for dense PDFs. |
-| **[portfolio](https://github.com/Aryanban/portfolio)** | `React 19` `Vite` `Tailwind CSS v4` | Source code for [webforge.me](https://www.webforge.me/) featuring interactive terminal and dark glassmorphic UI. |
 
 ---
 
