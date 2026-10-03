@@ -42,16 +42,16 @@ const aryan = {
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏙️ <a href="https://dholeramap.com/">DholeraMap — DSIR Smart City Vector GIS</a></h3>
-      <p>Interactive WebGL vector GIS platform for <b>Dholera Special Investment Region (DSIR)</b> TP 1–6 with 19,146 cadastral survey numbers, God's Eye 3D flythrough, and Copernicus Sentinel-2 stream.</p>
+      <h3>🏙️ <a href="https://dholeramap.com/">DholeraMap — DSIR Smart City GIS Atlas</a></h3>
+      <p>Interactive cadastral GIS atlas for <b>Dholera Special Investment Region (DSIR)</b> TP 1–6 with 18,161 parcels across 22 villages, custom binary parcel encoding, and DGDCR 2024 building controls.</p>
       <ul>
         <li><b>Live Platform:</b> <a href="https://dholeramap.com/">dholeramap.com</a></li>
         <li><b>Architecture & Case Study:</b> <a href="https://github.com/Aryanban/dholeramap-showcase">Aryanban/dholeramap-showcase</a></li>
-        <li>Sub-100ms spatial search across 19,146 survey numbers and Final Plots</li>
-        <li>60fps CesiumJS 3D aerial flythrough &amp; 5-day fresh Sentinel-2 satellite feed</li>
+        <li>Sub-millisecond off-thread point-in-polygon raycasting via dedicated Web Worker</li>
+        <li>Custom <code>DPB1</code> delta-int32 binary serialization cutting payload size by &gt;80%</li>
       </ul>
       <p>
-        <code>Next.js 15</code> <code>TypeScript</code> <code>CesiumJS</code> <code>WebGL</code> <code>Leaflet</code> <code>GIS</code>
+        <code>Next.js 15</code> <code>TypeScript</code> <code>Web Workers</code> <code>Leaflet</code> <code>Binary DPB1</code> <code>DGDCR 2024</code>
       </p>
     </td>
   </tr>
@@ -91,7 +91,7 @@ const aryan = {
 
 | Repository | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **[dholeramap-showcase](https://github.com/Aryanban/dholeramap-showcase)** | `Next.js 15` `TypeScript` `CesiumJS` `Leaflet` | Architecture case study & GIS showcase for [dholeramap.com](https://dholeramap.com/) — 19,146 cadastral survey numbers, 3D flythrough & Sentinel-2 stream. |
+| **[dholeramap-showcase](https://github.com/Aryanban/dholeramap-showcase)** | `Next.js 15` `TypeScript` `Web Workers` `Leaflet` | Architecture case study for [dholeramap.com](https://dholeramap.com/) — 18,161 parcels across 22 villages, custom `DPB1` binary format & Web Worker raycasting. |
 | **[plotbook-showcase](https://github.com/Aryanban/plotbook-showcase)** | `Next.js 16` `TypeScript` `Turbopack` `Leaflet` | Architecture case study for [plotbook.webforge.me](https://plotbook.webforge.me/) — 362 digitized DDA layout plans, 60fps camera & broker CRM. |
 | **[e1000-driver-showcase](https://github.com/Aryanban/e1000-driver-showcase)** | `C` `Linux Kernel 6.12` `Intel e1000` `Networking` | Systems architecture & empirical case study on in-kernel probabilistic packet dropping, SKB socket buffers & TCP recovery. |
 | **[leadforge](https://github.com/Aryanban/leadforge)** | `Python` `FastAPI` `Next.js 15` `Playwright` | Autonomous lead generation, Apollo-grade enrichment engine, and cold outreach sequencer with native MCP server. |
