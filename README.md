@@ -62,16 +62,16 @@ const aryan = {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🐧 <a href="https://github.com/Aryanban/e1000-driver-showcase">Intel E1000 Driver — Kernel-Space Packet Drop</a></h3>
-      <p>Systems architecture &amp; Linux Kernel 6.12 device driver implementing <b>in-kernel probabilistic packet dropping</b> and transport layer recovery evaluation.</p>
+      <h3>🎲 <a href="https://github.com/Aryanban/monoply_dbms">Monopoly Digital Engine &amp; Relational DBMS</a></h3>
+      <p>Full-stack multiplayer board game engine and transactional backend built with Python, Flask, and MySQL featuring <b>ACID-compliant transaction logging</b> and player trading.</p>
       <ul>
-        <li><b>Architecture & Design:</b> <a href="https://github.com/Aryanban/e1000-driver-showcase">Aryanban/e1000-driver-showcase</a></li>
-        <li>Intercepts and drops frames in <code>e1000_xmit_frame()</code> before transmission</li>
-        <li>Raw 5-byte UDP datagram control plane (<code>block</code> binary) to dynamic IP filters</li>
-        <li>Benchmarked 100,000 packets across 0%–15% loss analyzing TCP RTO exponential backoff</li>
+        <li><b>GitHub:</b> <a href="https://github.com/Aryanban/monoply_dbms">Aryanban/monoply_dbms</a></li>
+        <li>ACID-compliant relational database schema tracking double-entry ledgers and balances</li>
+        <li>Real-time player-to-player property trade negotiations and mortgage system</li>
+        <li>RESTful API managing state for up to 6 concurrent players across 40 spaces</li>
       </ul>
       <p>
-        <code>C</code> <code>Linux Kernel 6.12</code> <code>Intel e1000</code> <code>SKB Buffers</code> <code>TCP/IP</code> <code>QEMU</code>
+        <code>Python 3</code> <code>Flask</code> <code>MySQL 8.0</code> <code>ACID Transactions</code> <code>RESTful API</code> <code>Relational DBMS</code>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -126,13 +126,12 @@ const aryan = {
 | :--- | :--- | :--- |
 | **[dholeramap-showcase](https://github.com/Aryanban/dholeramap-showcase)** | `Next.js 15` `TypeScript` `Web Workers` `Leaflet` | Architecture case study for [dholeramap.com](https://dholeramap.com/) — 18,161 parcels across 22 villages, custom `DPB1` binary format & Web Worker raycasting. |
 | **[plotbook-showcase](https://github.com/Aryanban/plotbook-showcase)** | `Next.js 16` `TypeScript` `Turbopack` `Leaflet` | Architecture case study for [plotbook.webforge.me](https://plotbook.webforge.me/) — 362 digitized DDA layout plans, 60fps camera & broker CRM. |
-| **[e1000-driver-showcase](https://github.com/Aryanban/e1000-driver-showcase)** | `C` `Linux Kernel 6.12` `Intel e1000` `Networking` | Systems architecture & empirical case study on in-kernel probabilistic packet dropping, SKB socket buffers & TCP recovery. |
+| **[monoply_dbms](https://github.com/Aryanban/monoply_dbms)** | `Python 3` `Flask` `MySQL 8.0` `Relational DBMS` | Multiplayer Monopoly game engine & transactional backend with ACID ledger tracking, trading & REST API. |
 | **[leadforge](https://github.com/Aryanban/leadforge)** | `Python` `FastAPI` `Next.js 15` `Playwright` | Autonomous lead generation, Apollo-grade enrichment engine, and cold outreach sequencer with native MCP server. |
 | **[postforge](https://github.com/Aryanban/postforge)** | `TypeScript` `React 19` `Tailwind` | Algorithm-native social engine evaluating drafts against the Twitter Heavy Ranker neural net before publishing. |
 | **[seoforge](https://github.com/Aryanban/seoforge)** | `TypeScript` `Hono` `MCP SDK` `React 19` | Screaming Frog-grade SEO/AEO crawler, site audit engine & Model Context Protocol (MCP) agent server. |
 | **[webforge-portfolio-showcase](https://github.com/Aryanban/webforge-portfolio-showcase)** | `React 19` `Vite` `Tailwind CSS v4` `Framer Motion` | Frontend architecture for [webforge.me](https://www.webforge.me/) featuring interactive terminal and dark glassmorphic UI. |
 | **[university-erp](https://github.com/Aryanban/university-erp)** | `Java` `Maven` `MySQL` `Swing` | Enterprise-grade desktop ERP system with RBAC security and dual-database transactional logic. |
-| **[monoply_dbms](https://github.com/Aryanban/monoply_dbms)** | `Python` `SQL` `Relational DB` | Real-time database engine handling multiplayer game state, bank transactions, and leaderboards. |
 | **[pdf-ai-ml-bot](https://github.com/Aryanban/pdf-ai-ml-bot)** | `Python` `NLP` `Embeddings` | Intelligent document parsing and conversational question-answering pipeline for dense PDFs. |
 
 ---
