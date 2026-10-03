@@ -42,15 +42,15 @@ const aryan = {
     </td>
     <td width="50%" valign="top">
       <h3>🏙️ <a href="https://dholeramap.com/">DholeraMap — DSIR Smart City Vector GIS</a></h3>
-      <p>Interactive WebGL vector GIS map for <b>Dholera Special Investment Region (DSIR)</b> Town Planning Scheme 1 (TP 1) with real-time Jantri valuations and instant PDF dossiers.</p>
+      <p>Interactive WebGL vector GIS platform for <b>Dholera Special Investment Region (DSIR)</b> TP 1–6 with 19,146 cadastral survey numbers, God's Eye 3D flythrough, and Copernicus Sentinel-2 stream.</p>
       <ul>
-        <li><b>Live Application:</b> <a href="https://dholeramap.com/">dholeramap.com</a></li>
-        <li><b>GitHub:</b> <a href="https://github.com/Aryanban/dholeramap-vector">Aryanban/dholeramap-vector</a></li>
-        <li>High-precision vector tile canvas with instant zone and boundary inspection</li>
-        <li>Real-time Jantri plot valuation calculator &amp; automated investor PDF exports</li>
+        <li><b>Live Platform:</b> <a href="https://dholeramap.com/">dholeramap.com</a></li>
+        <li><b>Architecture & Case Study:</b> <a href="https://github.com/Aryanban/dholeramap-showcase">Aryanban/dholeramap-showcase</a></li>
+        <li>Sub-100ms spatial search across 19,146 survey numbers and Final Plots</li>
+        <li>60fps CesiumJS 3D aerial flythrough &amp; 5-day fresh Sentinel-2 satellite feed</li>
       </ul>
       <p>
-        <code>Next.js</code> <code>TypeScript</code> <code>WebGL</code> <code>Tailwind CSS</code> <code>GIS Canvas</code> <code>PDF Generation</code>
+        <code>Next.js 15</code> <code>TypeScript</code> <code>CesiumJS</code> <code>WebGL</code> <code>Leaflet</code> <code>GIS</code>
       </p>
     </td>
   </tr>
@@ -91,7 +91,7 @@ const aryan = {
 | Repository | Tech Stack | Description |
 | :--- | :--- | :--- |
 | **[dda_realestate](https://github.com/Aryanban/dda_realestate)** | `Next.js 16` `TypeScript` `Leaflet` `Supabase` | Core codebase behind PlotBook — digitized DDA layout plans, circle rate calculators, and broker CRM at [plotbook.webforge.me](https://plotbook.webforge.me/). |
-| **[dholeramap-vector](https://github.com/Aryanban/dholeramap-vector)** | `Next.js` `TypeScript` `WebGL` `GIS Canvas` | Production codebase for [dholeramap.com](https://dholeramap.com/) — WebGL vector GIS map for Dholera SIR TP 1 with Jantri valuations & PDF dossiers. |
+| **[dholeramap-showcase](https://github.com/Aryanban/dholeramap-showcase)** | `Next.js 15` `TypeScript` `CesiumJS` `Leaflet` | Architecture case study & GIS showcase for [dholeramap.com](https://dholeramap.com/) — 19,146 cadastral survey numbers, 3D flythrough & Sentinel-2 stream. |
 | **[leadforge](https://github.com/Aryanban/leadforge)** | `Python` `FastAPI` `Next.js 15` `Playwright` | Autonomous lead generation, Apollo-grade enrichment engine, and cold outreach sequencer with native MCP server. |
 | **[postforge](https://github.com/Aryanban/postforge)** | `TypeScript` `React 19` `Tailwind` | Algorithm-native social engine evaluating drafts against the Twitter Heavy Ranker neural net before publishing. |
 | **[university-erp](https://github.com/Aryanban/university-erp)** | `Java` `Maven` `MySQL` `Swing` | Enterprise-grade desktop ERP system with RBAC security and dual-database transactional logic. |
