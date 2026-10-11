@@ -32,7 +32,7 @@ My work spans **low-level systems and kernel drivers**, **database architectures
 - Intercepted packet transmission at Layer 2/3 in `struct sk_buff`, silently freeing buffer memory via `dev_kfree_skb_any()` to trigger upstream TCP transport-layer recovery (Fast Retransmit, exponential RTO backoff).
 - Benchmarked 100,000 transmitted packets across drop rates; proved that doubling host server receive buffers reduced `recv()` syscall invocations by ~50% due to stream-oriented socket coalescing (`buf[64]` vs `buf[128]`).
 - **Stack:** `C` · `Linux Kernel 6.12` · `QEMU` · `Intel E1000 Driver` · `TCP/IP Networking`  
-- [Systems Case Study](https://github.com/Aryanban/e1000-driver-showcase)
+- *Systems Case Study (Private Research Codebase / Coursework)*
 
 #### [Monopoly Digital Engine & Relational DBMS](https://github.com/Aryanban/monoply_dbms) — ACID Ledger & Multiplayer Backend
 *Multiplayer board game engine and transactional backend built with Python, Flask, and MySQL 8.0.*
@@ -137,7 +137,7 @@ My work spans **low-level systems and kernel drivers**, **database architectures
 | :--- | :--- | :--- | :--- |
 | **[dholeramap-showcase](https://github.com/Aryanban/dholeramap-showcase)** | Geospatial SaaS | `Next.js 15` `TypeScript` `MapLibre` `pdf-lib` | Cadastral GIS Atlas, in-memory PDF synthesis, Satellite GIS |
 | **[plotbook-showcase](https://github.com/Aryanban/plotbook-showcase)** | Geospatial SaaS | `Next.js 16` `TypeScript` `Turbopack` `Leaflet` | 362 digitized DDA layout plans, 60 FPS camera, broker CRM |
-| **[e1000-driver-showcase](https://github.com/Aryanban/e1000-driver-showcase)** | Systems / Kernel | `C` `Linux Kernel 6.12` `QEMU` `Networking` | Intel E1000 NIC driver in-kernel packet drop simulation |
+| **e1000-driver-showcase** *(Private)* | Systems / Kernel | `C` `Linux Kernel 6.12` `QEMU` `Networking` | Intel E1000 NIC driver in-kernel packet drop simulation |
 | **[monoply_dbms](https://github.com/Aryanban/monoply_dbms)** | DBMS / Full-Stack | `Python 3` `Flask` `MySQL 8.0` `ACID` | Multiplayer game engine with ACID relational ledger tracking |
 | **[university-erp](https://github.com/Aryanban/university-erp)** | Enterprise Systems | `Java 17` `Maven` `MySQL` `Swing` | Desktop ERP with dual-database architecture & RBAC security |
 | **[leadforge](https://github.com/Aryanban/leadforge)** | AI / Automation | `Python` `FastAPI` `MCP SDK` `Playwright` | Autonomous lead generation, SMTP verification, cold outreach |
